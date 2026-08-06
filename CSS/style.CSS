@@ -32,3 +32,84 @@ nav a{
 nav a:hover{
     text-decoration: underline;
 }
+main{
+    margin:auto;
+    width: 90%;
+    margin-top: 30px;
+}
+section{
+    margin-bottom: 30px;
+    background-color: #c4d772;
+    padding: 20px;
+    border-radius: 20px;
+}
+h2{
+    color: #c33bedb0;
+    margin-bottom: 10px;
+}
+p{
+    color: #20a1af;
+    margin-bottom: 10px;
+}
+
+.banner{
+    width: 60%;
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+}
+ul{
+    list-style-type: disc;
+    margin-left: 50px;
+    padding: 10px;
+}
+li{
+    margin-bottom: 10px;
+}
+article{
+    background-color: #d5cef3;
+    padding: 20px;
+    border-radius: 10px;
+}
+article:hover{
+    background-color: #eac189;
+}
+table{
+    width: 70%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    color: #893939;
+}
+td{
+    padding: 10px;
+    text-align: center;
+}
+table, th, td{
+    border: 1px solid #e78989;
+}
+tr:hover{
+    background-color: rgb(176, 235, 240);
+}
+ol{
+    margin-left: 50px;
+    padding: 10px;
+}
+ol li{
+    margin-bottom: 10px;
+}
+form {
+    margin-top: 20px;
+}
+label {
+    display: block;
+    margin-bottom: 2px;
+    font-weight: bold;
+}
+input:not([type="submit"]):not([type="radio"]) {
+    width: 60%;
+    padding: 5px;
+    margin-bottom: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    
+}
